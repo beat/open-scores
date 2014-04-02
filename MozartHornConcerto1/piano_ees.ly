@@ -93,9 +93,9 @@ instrument = "Piano - (transposed in Eb Major)"
       {
         \set Staff.midiInstrument = "alto sax"  % Alto Horn is not a midi standard, but alto sax is in Eb too
         \key c \major
-        \transpose aes c \hornMvtI
+        \transpose d d \hornMvtI
         \space
-        \transpose aes c \hornMvtII
+        \transpose d d \hornMvtII
       }
       \new PianoStaff
       <<

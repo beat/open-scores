@@ -3,7 +3,7 @@
 \header
 {
   title = \markup{Horn Concerto in D Major, K.412}
-  composer = "Wolfgang Amadeus Mozart (1756-1791)"
+  composer = "Wolfgang Amadeus Mozart"
   instrument = \instrument
 
   mutopiatitle = "Mozart Horn Concerto No.1"

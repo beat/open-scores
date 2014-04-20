@@ -2,7 +2,7 @@
 
 \include "defs.ily"
 \include "piano.ily"
-\include "horn.ily"
+\include "horn_ees.ily"
 
 instrument = "Piano - (transposed in Eb Major)"
 
@@ -91,11 +91,11 @@ instrument = "Piano - (transposed in Eb Major)"
     <<
       \new Staff
       {
-        \set Staff.midiInstrument = "alto sax"  % Alto Horn is not a midi standard, but alto sax is in Eb too
+        \set Staff.midiInstrument = "trombone"  % Alto Horn is not a midi standard, but alto sax is in Eb too
         \key c \major
-        \transpose d d \hornMvtI
+        \transpose d ees \hornMvtI
         \space
-        \transpose d d \hornMvtII
+        \transpose d ees \hornMvtII
       }
       \new PianoStaff
       <<
